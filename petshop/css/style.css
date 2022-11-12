@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.barra-negra { 
+    background-color: black;
+    color: aliceblue;
+    font-size: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.centrar-elementos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.position-selection {
+    position: absolute;
+    right: 60px;
+}
+
+header .barra-negra {
+    padding-left: 70px;
+}
+
+header select {
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    border: 0;
+    font-weight: 100;
+}
+
+footer .barra-negra {
+    justify-content: center;
+
+}
+
+.barra-amarilla {
+    background-color: #F0A83E;
+    display: flex;
+    align-items: center;
+}
+
+header .barra-amarilla {
+    padding: 20px 40px;
+}
+
+header .barra-amarilla nav {
+    position: absolute;
+    right: 40px;
+}
+
+header .barra-amarilla nav a {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+header .barra-amarilla nav a:link {
+    text-decoration: none;
+    color: white;    
+}
+
+header .barra-amarilla nav a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+header .barra-amarilla nav a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+header .barra-amarilla nav a:active {
+    text-decoration: none;
+    color: white;
+}
+
+header .barra-amarilla nav a img {
+    margin-right: 2px;
+}
+
+footer .barra-amarilla {
+    padding: 20px 40px 20px 15px;
+}
+
+.slider {
+    background-image: url("../img/bowl.png");
+    height: 410px;
+    background-size: cover;
+}
+
+.call-to-action {
+    position: absolute;
+    top: 260px;
+    right: 60px;
+    text-align: center;
+}
+
+.call-to-action p:first-child {
+    background-color: white;
+    padding: 5px;
+    font-size: 30px;
+    color:  #3C2313;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.call-to-action p:nth-child(2) {
+    color: #3C2313;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.call-to-action button {
+    background-color: #F0A83E;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+}
+
+.encabezado-destacado {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.encabezado-destacado h1 {
+    font-weight: 900;
+    font-size: 40px;
+    color: #3C2313;
+    margin-top: 10px;
+}
+
+.encabezado-destacado nav {
+    color: #666666;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.articulo {
+    text-align: center;
+    background-color:#FBFAF6;
+    padding: 5px;
+    margin: 10px;
+}
+
+.articulo p {
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.articulo p:nth-child(2) {
+    color: #3C2313;
+}
+
+.articulo p:nth-child(3) {
+    color: #F0A83E;
+}
+
+.input-brown {
+    background-color: #3C2313;
+    font-size: 9px;
+    border-radius: 15px;
+    width: 300px;
+    height: 40px;
+    padding: 5px 20px;
+    border: 0;
+    margin-top: 7px;
+    color: white;
+}
+
+.input-brown:focus-visible, .input-brown:focus {
+    border: 0 solid transparent !important;
+}
+
+.input-brown::placeholder {
+    color: white;
+}
+
+.btn-contacto {
+  margin: 30px 2px;
+  border-radius: 15px;
+  padding: 8px 18px;
+  width: 100px;
+  border: 0;
+  color: white;
+  margin-bottom: 60px;
+}
+
+#btn-contacto-reset {
+    background-color: #8A8787;
+}
+
+#btn-contacto-send {
+    background-color: #F0A83E;
+}
+
+#titulo-contacto {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #3C2313;
+    font-weight: 900;
+}
+
+#form-newsletter {
+    position: absolute;
+    right: 40px;
+}
+
+footer .barra-amarilla span {
+    color:  white;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+#ingresar-correo {
+    width: 280px;
+    padding: 13px;
+    border-radius: 15px;
+    border: 0;
+    color: #A0A0A0;
+    font-size: 9px;
+}
+
+#boton-suscribirse {
+    background-color: #3C2313;
+    width: 70px;
+    font-size: 9px;
+    padding: 7px 7px;
+    border-radius: 15px;
+    height: 30px;
+    color: white;
+    font-size: 9px;
+    border: 0;
+}
+
+.localidad-tlf-mail {
+    padding-left: 60px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3C2313
+}
+
+.localidad-tlf-mail ul {
+    list-style-type: none;
+}
+
+.localidad-tlf-mail img {
+    height: fit-content;
+}
+
+.li-footer-info {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.li-footer-info div {
+    margin-left: 15px;
+    color: white;
+}
+
+.li-footer-info div p:first-child {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.li-footer-info div p:nth-child(2) {
+    font-size: 10px;
+    color: #8A8787;
+}
